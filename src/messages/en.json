@@ -92,5 +92,66 @@
         "generic": "Failed to save the API key"
       }
     }
+  },
+  "landing": {
+    "hero": {
+      "title": "Standardize commits, branches and pull requests without wasting time rewriting context.",
+      "description": "Git Workflow Assistant was created to solve a real team pain point: keeping commit messages consistent.",
+      "primaryCta": "Open generator",
+      "secondaryCta": "View on GitHub",
+      "openSource": "100% open source",
+      "multiArtifact": "Commit, branch and PR in one flow",
+      "cardSubtitle": "From raw context to cleaner Git",
+      "cardInputLabel": "Example input",
+      "cardInputExample": "- create result cards\n- add copy command action\n- adjust API key management\n- improve multi-language support"
+    },
+    "pain": {
+      "listTitle": "The task list already existed",
+      "listDescription": "Inside the company, work was already split into list-based tasks. The problem was not missing context, but turning that context into clear and consistent Git artifacts.",
+      "standardTitle": "The standard kept drifting",
+      "standardDescription": "Without a simple tool, each developer wrote commits differently. That made history harder to read and reviews less consistent.",
+      "rewriteTitle": "Too much manual rewriting",
+      "rewriteDescription": "The team kept rewriting the same information for commits, branches and pull requests. This project was built to remove that repetitive work."
+    },
+    "origin": {
+      "eyebrow": "Why this project exists",
+      "title": "Built from a real team workflow pain",
+      "descriptionOne": "This project was created because maintaining a commit message standard inside the team kept becoming a recurring problem. The task context already existed, but turning it into strong Git artifacts still took time.",
+      "descriptionTwo": "The solution was simple: take the task list, add technical comments, and let AI generate cleaner and more consistent suggestions for the whole workflow."
+    },
+    "workflow": {
+      "eyebrow": "How it works",
+      "title": "A direct workflow with low friction",
+      "steps": {
+        "step1": {
+          "title": "Paste the task list",
+          "description": "Use the same list that was already organized by the team."
+        },
+        "step2": {
+          "title": "Add technical notes",
+          "description": "Include stack details, changed modules, implementation context or anything useful."
+        },
+        "step3": {
+          "title": "Generate commit, branch and PR",
+          "description": "Get copy-ready suggestions while keeping consistency and clarity."
+        }
+      }
+    },
+    "opensource": {
+      "eyebrow": "Open source and transparent",
+      "title": "Everything open, direct and auditable",
+      "description": "This project is 100% open source. Anyone can review the code, inspect the API key security flow and understand how the application works internally.",
+      "securityTitle": "Your key, your account",
+      "securityDescription": "The app was designed to use the user's own API key, not the creator's key.",
+      "repositoryTitle": "Public repository",
+      "repositoryDescription": "The implementation is public for anyone who wants to inspect the code, study the architecture or contribute.",
+      "repositoryCta": "Open repository"
+    },
+    "cta": {
+      "title": "Turn raw context into a better Git history.",
+      "description": "Paste your list, add technical details and generate more professional Git artifacts in seconds.",
+      "primary": "Start now",
+      "secondary": "View source code"
+    }
   }
 }

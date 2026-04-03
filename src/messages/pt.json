@@ -92,5 +92,66 @@
         "generic": "Falha ao salvar a API key"
       }
     }
+  },
+  "landing": {
+    "hero": {
+      "title": "Padronize commits, branches e pull requests sem perder tempo reescrevendo contexto.",
+      "description": "O Git Workflow Assistant nasceu para resolver uma dor real da equipe: manter um padrão consistente de mensagens de commit.",
+      "primaryCta": "Abrir gerador",
+      "secondaryCta": "Ver no GitHub",
+      "openSource": "100% open source",
+      "multiArtifact": "Commit, branch e PR em um só fluxo",
+      "cardSubtitle": "Do contexto bruto para Git limpo",
+      "cardInputLabel": "Exemplo de entrada",
+      "cardInputExample": "- criar cards de resultado\n- adicionar copiar comando\n- ajustar gerenciamento da API key\n- melhorar suporte multi language"
+    },
+    "pain": {
+      "listTitle": "As tasks já existiam",
+      "listDescription": "Dentro da empresa, o trabalho já era dividido em formato de lista. O problema não era falta de contexto, era transformar esse contexto em mensagens boas e padronizadas.",
+      "standardTitle": "O padrão se perdia",
+      "standardDescription": "Sem uma ferramenta simples, cada pessoa escrevia commits de um jeito. Isso tornava o histórico menos consistente e mais difícil de revisar.",
+      "rewriteTitle": "Muito retrabalho manual",
+      "rewriteDescription": "A equipe acabava reescrevendo a mesma informação várias vezes para commit, branch e pull request. O projeto nasceu para eliminar esse esforço repetitivo."
+    },
+    "origin": {
+      "eyebrow": "Por que esse projeto existe",
+      "title": "Criado a partir de uma dor real da equipe",
+      "descriptionOne": "O projeto foi criado porque manter um padrão de mensagens de commit dentro da equipe estava virando um problema recorrente. O contexto das tasks já existia, mas transformar isso em bons artefatos de Git ainda consumia tempo.",
+      "descriptionTwo": "A solução foi simples: pegar a lista de tasks, adicionar comentários técnicos e deixar a IA gerar sugestões melhores, mais limpas e mais consistentes para o fluxo inteiro."
+    },
+    "workflow": {
+      "eyebrow": "Como funciona",
+      "title": "Um fluxo direto, sem fricção",
+      "steps": {
+        "step1": {
+          "title": "Cole a lista de tasks",
+          "description": "Use a própria lista que já foi organizada pela equipe."
+        },
+        "step2": {
+          "title": "Adicione comentários técnicos",
+          "description": "Inclua stack, módulos alterados, contexto de implementação ou qualquer detalhe útil."
+        },
+        "step3": {
+          "title": "Gere commit, branch e PR",
+          "description": "Receba sugestões prontas para copiar, mantendo padrão e clareza."
+        }
+      }
+    },
+    "opensource": {
+      "eyebrow": "Open source e transparência",
+      "title": "Tudo aberto, direto e auditável",
+      "description": "O projeto é 100% open source. Qualquer pessoa pode revisar o código, entender o fluxo de segurança da API key e acompanhar como a aplicação funciona por dentro.",
+      "securityTitle": "Sua chave, sua conta",
+      "securityDescription": "O app foi pensado para usar a API key do próprio usuário, não a chave do autor do projeto.",
+      "repositoryTitle": "Repositório público",
+      "repositoryDescription": "A implementação está pública para quem quiser conferir o código, estudar a arquitetura ou contribuir.",
+      "repositoryCta": "Abrir repositório"
+    },
+    "cta": {
+      "title": "Transforme contexto bruto em histórico Git melhor.",
+      "description": "Cole sua lista, adicione detalhes técnicos e gere artefatos mais profissionais em segundos.",
+      "primary": "Começar agora",
+      "secondary": "Ver código-fonte"
+    }
   }
 }
