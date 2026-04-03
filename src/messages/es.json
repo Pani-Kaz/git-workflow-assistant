@@ -1,0 +1,97 @@
+{
+  "common": {
+    "appName": "Git Workflow Assistant",
+    "themeToggle": "Cambiar tema"
+  },
+  "home": {
+    "title": "Genera mejores nombres de ramas, commits y pull requests",
+    "description": "Estandariza tu flujo Git con generación asistida por IA."
+  },
+  "navbar": {
+    "home": "Inicio",
+    "generator": "Generador",
+    "addApiKey": "Agregar clave",
+    "manageApiKey": "Administrar clave",
+    "menu": "Menú",
+    "theme": "Tema",
+    "language": "Idioma",
+    "replaceApiKey": "Reemplazar clave",
+    "removeApiKey": "Eliminar clave"
+  },
+  "generator": {
+    "form": {
+      "title": "Genera mejores sugerencias para Git",
+      "description": "Describe lo que cambió y deja que la IA genere sugerencias refinadas para commits, ramas y pull requests.",
+      "summaryLabel": "¿Qué cambió?",
+      "summaryPlaceholder": "Ejemplo: creé la interfaz de resultados del generador, añadí la acción para copiar comandos y mejoré el comportamiento del modo oscuro en la navbar.",
+      "contextLabel": "Contexto técnico extra",
+      "contextPlaceholder": "Opcional: menciona stack, módulos afectados, convención de nombres o si fue refactor, corrección o nueva funcionalidad.",
+      "artifactsLabel": "Generar para",
+      "artifactOptions": {
+        "commit": {
+          "label": "Commit"
+        },
+        "branch": {
+          "label": "Branch"
+        },
+        "pullRequest": {
+          "label": "Pull Request"
+        }
+      },
+      "outputLanguageLabel": "Idioma de salida",
+      "outputLanguageOptions": {
+        "auto": "español",
+        "en": "Inglés"
+      },
+      "suggestionsCountLabel": "Cantidad de sugerencias",
+      "submit": "Generar sugerencias",
+      "submitting": "Generando...",
+      "helper": "Genera de 3 a 5 sugerencias refinadas listas para copiar"
+    },
+    "emptyState": {
+      "title": "Tus sugerencias generadas aparecerán aquí",
+      "description": "Describe tu cambio, elige qué quieres generar y la app devolverá sugerencias refinadas para commits, ramas y pull requests."
+    },
+    "results": {
+      "loading": "Generando sugerencias...",
+      "errorTitle": "Error al generar sugerencias",
+      "section": {
+        "suggestionsGenerated": "{count} sugerencias generadas"
+      },
+      "card": {
+        "copyText": "Copiar texto",
+        "copyCommand": "Copiar comando",
+        "copied": "Copiado"
+      }
+    },
+    "apiKeyDialog": {
+      "replaceTitle": "Reemplaza tu API key",
+      "replaceDescription": "Actualiza la API key conectada para seguir generando commits, ramas y pull requests con tu propia cuenta.",
+      "replaceSave": "Guardar nueva clave",
+
+      "title": "Configura tu API key",
+      "description": "Para generar commits, ramas y pull requests, conecta tu propia API key de OpenAI.",
+      "securityTitle": "Este proceso es seguro",
+      "securityDescription": "Tu API key se envía al backend solo para ser cifrada y almacenada de forma segura en una cookie protegida. Después de eso, no vuelve a quedar expuesta en el navegador.",
+      "securityRepositoryText": "Si quieres, puedes revisar la implementación completa en el repositorio público del proyecto.",
+      "repositoryLink": "Ver repositorio en GitHub",
+      "tutorialTitle": "Cómo obtener tu API key",
+      "tutorialSteps": {
+        "step1": "Abre tu cuenta de OpenAI.",
+        "step2": "Ve al área de API keys en el panel de la plataforma.",
+        "step3": "Crea una nueva API key.",
+        "step4": "Copia la clave generada y pégala en el campo de abajo."
+      },
+      "inputLabel": "OpenAI API key",
+      "inputPlaceholder": "sk-...",
+      "inputHelper": "La clave se guardará de forma segura para que el generador use tu propia cuenta.",
+      "cancel": "Cancelar",
+      "save": "Guardar API key",
+      "saving": "Guardando...",
+      "errors": {
+        "empty": "Ingresa tu API key",
+        "generic": "No se pudo guardar la API key"
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f8fa;
+  --foreground: #dadee6;
+  --base-100: #dadee6;
+  --base-300: #98a1b3;
+  --base-500: #606b80;
+  --base-800: #1f2633;
+}
+
+.dark {
+  --background: #030305;
+  --foreground: #ededed;
+  --base-100: #1f2633;
+  --base-800: #ffffff;
+  --base-500: #98a1b3;
+  --base-300: #475166;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-base-100: var(--base-100);
+  --color-base-300: var(--base-300);
+  --color-base-500: var(--base-500);
+  --color-base-800: var(--base-800);
+  --font-sans: var(--font-inter);
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--background);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+
+
+.scroll-minimal {
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(120, 120, 120, 0.4) transparent;
+}
+
+.scroll-minimal::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.scroll-minimal::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 0;
+}
+
+.scroll-minimal::-webkit-scrollbar-thumb {
+  background: rgba(120, 120, 120, 0.4);
+  border-radius: 999px;
+}
+
+.scroll-minimal::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 120, 120, 0.6);
+}
+
+.scroll-minimal::-webkit-scrollbar-button:single-button,
+.scroll-minimal::-webkit-scrollbar-button,
+.scroll-minimal::-webkit-scrollbar-track-piece,
+.scroll-minimal::-webkit-scrollbar-corner {
+  display: none;
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+
+.dark .scroll-minimal {
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.dark .scroll-minimal::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.dark .scroll-minimal::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.32);
+}

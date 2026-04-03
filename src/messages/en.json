@@ -1,0 +1,96 @@
+{
+  "common": {
+    "appName": "Git Workflow Assistant",
+    "themeToggle": "Toggle theme"
+  },
+  "home": {
+    "title": "Generate better branch names, commits and pull requests",
+    "description": "Standardize your Git workflow with AI-assisted generation."
+  },
+  "navbar": {
+    "home": "Home",
+    "generator": "Generator",
+    "addApiKey": "Add API key",
+    "manageApiKey": "Manage API key",
+    "menu": "Menu",
+    "theme": "Theme",
+    "language": "Language",
+    "replaceApiKey": "Replace API key",
+    "removeApiKey": "Remove API key"
+  },
+  "generator": {
+    "form": {
+      "title": "Generate better Git suggestions",
+      "description": "Describe what changed and let the AI generate polished suggestions for commits, branches and pull requests.",
+      "summaryLabel": "What changed?",
+      "summaryPlaceholder": "Example: created the generator results UI, added copy command action and improved dark mode behavior in the navbar.",
+      "contextLabel": "Extra technical context",
+      "contextPlaceholder": "Optional: mention stack, modules affected, naming convention or if it was a refactor, bugfix or new feature.",
+      "artifactsLabel": "Generate for",
+      "artifactOptions": {
+        "commit": {
+          "label": "Commit"
+        },
+        "branch": {
+          "label": "Branch"
+        },
+        "pullRequest": {
+          "label": "Pull Request"
+        }
+      },
+      "outputLanguageLabel": "Output language",
+      "outputLanguageOptions": {
+        "auto": "Same as input",
+        "en": "English"
+      },
+      "suggestionsCountLabel": "Suggestions count",
+      "submit": "Generate suggestions",
+      "submitting": "Generating...",
+      "helper": "Generates 3 to 5 suggestions with copy-ready output"
+    },
+    "emptyState": {
+      "title": "Your generated suggestions will appear here",
+      "description": "Describe your change, choose what you want to generate and the app will return polished suggestions for commits, branches and pull requests."
+    },
+    "results": {
+      "loading": "Generating suggestions...",
+      "errorTitle": "Failed to generate suggestions",
+      "section": {
+        "suggestionsGenerated": "{count} suggestions generated"
+      },
+      "card": {
+        "copyText": "Copy text",
+        "copyCommand": "Copy command",
+        "copied": "Copied"
+      }
+    },
+    "apiKeyDialog": {
+      "replaceTitle": "Replace your API key",
+      "replaceDescription": "Update the connected API key to keep generating commits, branches and pull requests with your own account.",
+      "replaceSave": "Save new key",
+      "title": "Configure your API key",
+      "description": "To generate commits, branches and pull requests, connect your own OpenAI API key.",
+      "securityTitle": "This process is secure",
+      "securityDescription": "Your API key is sent to the backend only to be encrypted and stored securely in a protected cookie. After that, it is not exposed again in the browser.",
+      "securityRepositoryText": "If you want, you can review the full implementation in the public project repository.",
+      "repositoryLink": "View repository on GitHub",
+      "tutorialTitle": "How to get your API key",
+      "tutorialSteps": {
+        "step1": "Open your OpenAI account.",
+        "step2": "Go to the API keys area in the platform dashboard.",
+        "step3": "Create a new API key.",
+        "step4": "Copy the generated key and paste it into the field below."
+      },
+      "inputLabel": "OpenAI API key",
+      "inputPlaceholder": "sk-...",
+      "inputHelper": "The key will be stored securely so the generator can use your own account.",
+      "cancel": "Cancel",
+      "save": "Save API key",
+      "saving": "Saving...",
+      "errors": {
+        "empty": "Enter your API key",
+        "generic": "Failed to save the API key"
+      }
+    }
+  }
+}

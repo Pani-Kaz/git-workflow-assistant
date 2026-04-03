@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Git Workflow Assistant
 
-## Getting Started
+Generate better **commit messages**, **branch names**, and **pull request titles** from a simple task list and technical context.
 
-First, run the development server:
+Built by [PaniKaz](https://github.com/Pani-Kaz).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About the project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Git Workflow Assistant was created from a real internal pain point:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+our team needed to keep a consistent standard for commit messages across the company.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Inside our workflow, tasks are usually organized as a simple list. Because of that, the process became very straightforward:
 
-## Learn More
+- copy the task list
+- add technical notes or implementation details
+- generate polished suggestions for:
+  - commit messages
+  - branch names
+  - pull request titles
 
-To learn more about Next.js, take a look at the following resources:
+That is the core idea behind this project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Instead of wasting time rewriting the same context over and over, the app transforms raw development notes into clean Git artifacts that are easier to read, review, and maintain.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Why this exists
 
-## Deploy on Vercel
+Good commit history is one of those things every team wants, but very few teams manage to keep consistent over time.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Common problems:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- vague commit messages
+- inconsistent branch naming
+- pull requests with weak titles
+- too much manual rewriting
+- no shared writing standard across the team
+
+This app solves that by giving developers a faster and more consistent workflow.
+
+## How it works
+
+The user describes what changed.
+
+Usually that means:
+
+- pasting a task list
+- adding technical comments
+- optionally choosing the output language
+
+Then the app generates multiple suggestions for:
+
+- commit messages
+- branch names
+- pull request titles
+
+## Core flow
+
+1. Open the generator
+2. Paste your task list or change summary
+3. Add technical context if needed
+4. Choose what you want to generate
+5. Pick the output language
+6. Generate suggestions
+7. Copy the result you want
+
+## Example input
+
+```text
+- created generator result cards
+- added copy command action
+- implemented API key dialog
+- adjusted navbar to manage API key
+- improved multi-language support
+
+Technical notes:
+- using next-intl for translations
+- API key is encrypted on the backend and stored in a secure cookie
+- generation endpoint now uses the user's own OpenAI key
